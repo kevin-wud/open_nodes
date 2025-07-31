@@ -5,155 +5,123 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 荷蘭, server: 91.193.58.141, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 2, server: 91.193.58.140, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 3, server: 91.193.58.14, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸|華東電訊|解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 4, server: 91.193.58.14, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 5, server: 91.193.58.14, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: tw.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: tw.laoyoutiao.link}}}
-  - {name: 荷蘭 6, server: 91.193.58.14, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodesfreecodes, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 7, server: 91.193.58.14, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 德國, server: 91.193.58.137, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 8, server: 91.193.58.134, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: "🔒 [By EbraSha]", network: ws, ws-opts: {path: "/🔒 [By EbraSha] b2n.ir/v2ray-configs | 916", headers: {Host: "🔒 [By EbraSha]"}}}
-  - {name: 荷蘭 9, server: 91.193.58.134, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 10, server: 91.193.58.134, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛, server: 91.193.58.134, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: us.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 2, server: 91.193.58.134, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: " [By EbraSha]", network: ws, ws-opts: {path: "/ [By EbraSha] b2n.ir/v2ray-configs | 916", headers: {Host: "[By EbraSha]"}}}
-  - {name: 荷蘭 11, server: 91.193.58.134, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: " [By EbraSha]", network: ws, ws-opts: {path: "/[ByEbraSha]b2n.ir/v2ray-configs|916", headers: {Host: "[By EbraSha]"}}}
-  - {name: 荷蘭 12, server: 91.193.58.133, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 13, server: 91.193.58.133, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 14, server: 91.193.58.132, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 🇯🇵 日本, server: 91.193.58.132, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 15, server: 91.193.58.131, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 16, server: 91.193.58.131, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 17, server: 91.193.58.130, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 荷蘭 18, server: 91.193.58.130, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@ CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 19, server: 91.193.58.13, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 荷蘭 20, server: 91.193.58.13, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 3, server: 91.193.58.13, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸|華東電訊|解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 21, server: 91.193.58.13, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: " [By EbraSha]", network: ws, ws-opts: {path: "/[ByEbraSha]", headers: {Host: "[By EbraSha]"}}}
-  - {name: 荷蘭 22, server: 91.193.58.128, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 23, server: 91.193.58.128, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 德國 2, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 德國 3, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 24, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram @MxlShare @WangCai2 /, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 25, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@MxlShare@WangCai2/, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 26, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 荷蘭 27, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @ CoinTech2U2 /, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 4, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@MxlShare@ CoinTech2U2/, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 🇯🇵 日本 2, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: "🔒 [By EbraSha]", network: ws, ws-opts: {path: "/🔒 [By EbraSha] @MxlShare @WangCai2", headers: {Host: "🔒 [By EbraSha]"}}}
-  - {name: 荷蘭 28, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 29, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @WangCai2 /, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 30, server: 91.193.58.126, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 31, server: 91.193.58.126, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/ [By EbraSha]", headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 32, server: 91.193.58.126, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 33, server: 91.193.58.125, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸|華東電訊|解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇯🇵 日本 3, server: 91.193.58.125, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 34, server: 91.193.58.125, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 35, server: 91.193.58.124, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 36, server: 91.193.58.124, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸|華東電訊|解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 荷蘭 2, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @ CoinTech2U2 /, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 🇱🇹 立陶宛, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@MxlShare@ CoinTech2U2/, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 🇯🇵 日本, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: "🔒 [By EbraSha]", network: ws, ws-opts: {path: "/🔒 [By EbraSha] @MxlShare @WangCai2", headers: {Host: "🔒 [By EbraSha]"}}}
+  - {name: 荷蘭 3, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 4, server: 91.193.58.127, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @WangCai2 /, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 荷蘭 5, server: 91.193.58.126, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 6, server: 91.193.58.126, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: "/ [By EbraSha]", headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 荷蘭 7, server: 91.193.58.126, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 8, server: 91.193.58.125, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸|華東電訊|解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇯🇵 日本 2, server: 91.193.58.125, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 9, server: 91.193.58.125, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 10, server: 91.193.58.124, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 11, server: 91.193.58.124, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸|華東電訊|解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
   - {name: 🇭🇰 香港, server: 91.193.58.124, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 37, server: 91.193.58.124, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 德國 4, server: 91.193.58.123, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 38, server: 91.193.58.123, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 39, server: 91.193.58.123, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodesfreecodes, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 40, server: 91.193.58.122, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 41, server: 91.193.58.121, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram @MxlShare @ CoinTech2U2 /, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 🇯🇵 日本 4, server: 91.193.58.121, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @WangCai2 /, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 荷蘭 12, server: 91.193.58.124, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 德國, server: 91.193.58.123, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 13, server: 91.193.58.123, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 14, server: 91.193.58.123, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodesfreecodes, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 15, server: 91.193.58.122, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 16, server: 91.193.58.121, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram @MxlShare @ CoinTech2U2 /, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 🇯🇵 日本 3, server: 91.193.58.121, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @WangCai2 /, headers: {Host: sk.laoyoutiao.link}}}
   - {name: 🇭🇰 香港 2, server: 91.193.58.121, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@MxlShare@WangCai2/, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 42, server: 91.193.58.121, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 43, server: 91.193.58.120, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 5, server: 91.193.58.120, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 44, server: 91.193.58.120, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 45, server: 91.193.58.119, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@ CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇯🇵 日本 5, server: 91.193.58.119, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 46, server: 91.193.58.119, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 47, server: 91.193.58.117, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 48, server: 91.193.58.116, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 49, server: 91.193.58.116, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 50, server: 91.193.58.116, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 51, server: 91.193.58.115, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 荷蘭 52, server: 91.193.58.115, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 53, server: 91.193.58.115, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 荷蘭 54, server: 91.193.58.115, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 55, server: 91.193.58.114, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 德國 5, server: 91.193.58.112, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇯🇵 日本 6, server: 91.193.58.112, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇯🇵 日本 7, server: 91.193.58.112, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: " [By EbraSha]", network: ws, ws-opts: {path: "/[ByEbraSha]", headers: {Host: "[By EbraSha]"}}}
-  - {name: 德國 6, server: 91.193.58.111, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 56, server: 91.193.58.111, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 57, server: 91.193.58.111, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 荷蘭 58, server: 91.193.58.110, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 德國 7, server: 91.193.58.11, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 荷蘭 59, server: 91.193.58.11, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 60, server: 91.193.58.11, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 61, server: 91.193.58.11, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@ CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 62, server: 91.193.58.109, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@MxlShare@ CoinTech2U2/, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 🇯🇵 日本 8, server: 91.193.58.109, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 63, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 64, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @WangCai2 /, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 65, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳@MxlShare@WangCai2, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 66, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @WangCai2, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 67, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @ CoinTech2U2, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 荷蘭 68, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳@MxlShare@ CoinTech2U2, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 荷蘭 17, server: 91.193.58.121, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 18, server: 91.193.58.120, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇱🇹 立陶宛 2, server: 91.193.58.120, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 19, server: 91.193.58.120, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 20, server: 91.193.58.119, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@ CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇯🇵 日本 4, server: 91.193.58.119, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 21, server: 91.193.58.119, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 22, server: 91.193.58.117, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 23, server: 91.193.58.116, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 24, server: 91.193.58.116, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 25, server: 91.193.58.116, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 26, server: 91.193.58.115, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 荷蘭 27, server: 91.193.58.115, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 28, server: 91.193.58.115, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 荷蘭 29, server: 91.193.58.115, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 30, server: 91.193.58.114, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 德國 2, server: 91.193.58.112, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇯🇵 日本 5, server: 91.193.58.112, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇯🇵 日本 6, server: 91.193.58.112, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: " [By EbraSha]", network: ws, ws-opts: {path: "/[ByEbraSha]", headers: {Host: "[By EbraSha]"}}}
+  - {name: 德國 3, server: 91.193.58.111, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 31, server: 91.193.58.111, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 32, server: 91.193.58.111, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 荷蘭 33, server: 91.193.58.110, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 德國 4, server: 91.193.58.11, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 荷蘭 34, server: 91.193.58.11, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 35, server: 91.193.58.11, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 36, server: 91.193.58.11, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@ CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 37, server: 91.193.58.109, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@MxlShare@ CoinTech2U2/, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 🇯🇵 日本 7, server: 91.193.58.109, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 38, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 39, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @WangCai2 /, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 荷蘭 40, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳@MxlShare@WangCai2, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 荷蘭 41, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @WangCai2, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 荷蘭 42, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @ CoinTech2U2, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 荷蘭 43, server: 91.193.58.107, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳@MxlShare@ CoinTech2U2, headers: {Host: sk.laoyoutiao.link}}}
   - {name: 俄羅斯, server: 91.193.58.105, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 69, server: 91.193.58.105, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸|華東電訊|解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 70, server: 91.193.58.105, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 44, server: 91.193.58.105, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸|華東電訊|解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 45, server: 91.193.58.105, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
   - {name: 🇭🇰 香港 3, server: 91.193.58.104, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}}
-  - {name: 荷蘭 71, server: 91.193.58.104, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 德國 8, server: 91.193.58.103, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 72, server: 91.193.58.103, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 德國 9, server: 91.193.58.101, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 德國 10, server: 91.193.58.101, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 73, server: 91.193.58.101, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 荷蘭 74, server: 91.193.58.101, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 6, server: 91.193.58.101, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 荷蘭 46, server: 91.193.58.104, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 德國 5, server: 91.193.58.103, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 47, server: 91.193.58.103, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 德國 6, server: 91.193.58.101, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 德國 7, server: 91.193.58.101, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 48, server: 91.193.58.101, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 荷蘭 49, server: 91.193.58.101, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 3, server: 91.193.58.101, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
   - {name: 俄羅斯 2, server: 91.193.58.100, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 75, server: 91.193.58.100, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: sk.laoyoutiao.link}}}
-  - {name: 🇯🇵 日本 9, server: 91.193.58.100, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 76, server: 91.193.58.10, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram@ CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 77, server: 91.193.58.10, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 50, server: 91.193.58.100, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 🇯🇵 日本 8, server: 91.193.58.100, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 51, server: 91.193.58.10, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram@ CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 荷蘭 52, server: 91.193.58.10, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
   - {name: 俄羅斯 3, server: 91.193.58.1, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 荷蘭 78, server: 91.193.58.1, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram, headers: {Host: sk.laoyoutiao.link}}}
+  - {name: 荷蘭 53, server: 91.193.58.1, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram, headers: {Host: sk.laoyoutiao.link}}}
   - {name: 烏克蘭, server: 91.124.127.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 🇱🇹 立陶宛 7, server: 89.117.112.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: cf.d3z.net}}}
-  - {name: 🇱🇹 立陶宛 8, server: 89.117.112.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: /Telegram, headers: {Host: cf.d3z.net}}}
-  - {name: 🇱🇹 立陶宛 9, server: 89.117.112.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 🇱🇹 立陶宛 10, server: 89.117.112.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 11, server: 89.116.46.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 🇱🇹 立陶宛 12, server: 89.116.250.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 13, server: 89.116.250.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 14, server: 89.116.250.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 15, server: 89.116.250.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 16, server: 89.116.180.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 17, server: 89.116.180.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 18, server: 89.116.180.248, port: 443, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, tfo: false, skip-cert-verify: false, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}}
-  - {name: 🇱🇹 立陶宛 19, server: 89.116.180.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 🇱🇹 立陶宛 20, server: 89.116.180.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 21, server: 89.116.180.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 🇱🇹 立陶宛 22, server: 89.116.161.254, port: 8880, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 4, server: 89.117.112.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: cf.d3z.net}}}
+  - {name: 🇱🇹 立陶宛 5, server: 89.117.112.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: /Telegram, headers: {Host: cf.d3z.net}}}
+  - {name: 🇱🇹 立陶宛 6, server: 89.117.112.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 🇱🇹 立陶宛 7, server: 89.117.112.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 8, server: 89.116.46.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 🇱🇹 立陶宛 9, server: 89.116.250.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 10, server: 89.116.250.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 11, server: 89.116.250.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇱🇹 立陶宛 12, server: 89.116.250.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇱🇹 立陶宛 13, server: 89.116.180.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 14, server: 89.116.180.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 15, server: 89.116.180.248, port: 443, type: vless, uuid: 401374e6-df77-41fb-f638-dad8184f175b, tls: true, tfo: false, skip-cert-verify: false, servername: pqh23v4.hiddendom.shop, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}}
+  - {name: 🇱🇹 立陶宛 16, server: 89.116.180.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 🇱🇹 立陶宛 17, server: 89.116.180.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 18, server: 89.116.180.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 🇱🇹 立陶宛 19, server: 89.116.161.254, port: 8880, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 🇺🇸 美国, server: 89.116.161.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}}
-  - {name: 🇱🇹 立陶宛 23, server: 89.116.161.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 24, server: 89.116.161.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 25, server: 89.116.161.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /Telegram @ CoinTech2U2, headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 🇱🇹 立陶宛 26, server: 89.116.161.156, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 27, server: 88.216.69.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}}
-  - {name: 🇱🇹 立陶宛 28, server: 88.216.69.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 29, server: 88.216.69.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 30, server: 88.216.69.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 31, server: 88.216.69.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 32, server: 86.38.214.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 33, server: 86.38.214.254, port: 8880, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 🇱🇹 立陶宛 34, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 35, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 36, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 🇱🇹 立陶宛 37, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: "/Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 🇱🇹 立陶宛 38, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /freecodesfreecodes, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 🇱🇹 立陶宛 39, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 🇱🇹 立陶宛 40, server: 86.38.214.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇱🇹 立陶宛 41, server: 86.38.214.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇱🇹 立陶宛 20, server: 89.116.161.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 21, server: 89.116.161.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 22, server: 89.116.161.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /Telegram @ CoinTech2U2, headers: {Host: ip.langmanshanxi.top}}}
+  - {name: 🇱🇹 立陶宛 23, server: 89.116.161.156, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 24, server: 88.216.69.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}}
+  - {name: 🇱🇹 立陶宛 25, server: 88.216.69.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 26, server: 88.216.69.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇱🇹 立陶宛 27, server: 88.216.69.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇱🇹 立陶宛 28, server: 88.216.69.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇱🇹 立陶宛 29, server: 86.38.214.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}}
+  - {name: 🇱🇹 立陶宛 30, server: 86.38.214.254, port: 8880, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 🇱🇹 立陶宛 31, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 32, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 33, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 🇱🇹 立陶宛 34, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: "/Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 🇱🇹 立陶宛 35, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /freecodesfreecodes, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 🇱🇹 立陶宛 36, server: 86.38.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇱🇹 立陶宛 37, server: 86.38.214.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇱🇹 立陶宛 38, server: 86.38.214.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
   - {name: 🇳🇴 挪威, server: 84.247.145.11, port: 37726, type: vless, uuid: d1c3b3d2-a7da-40b6-a6cb-23619528e130, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
   - {name: 🇬🇧 英国, server: 80.93.202.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 德國 11, server: 77.37.33.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 德國 8, server: 77.37.33.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 🇩🇪 德国, server: 77.37.33.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /, headers: {Host: ip.langmanshanxi.top}}}
   - {name: 俄羅斯 4, server: 77.232.140.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 俄羅斯 5, server: 77.232.140.20, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: "/ [By EbraSha]", headers: {Host: us.laoyoutiao.link}}}
@@ -168,9 +136,8 @@ proxies:
   - {name: 🇺🇸 美国 4, server: 66.81.247.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: /, headers: {Host: cf.d3z.net}}}
   - {name: 美國, server: 66.235.200.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 美國 2, server: 66.235.200.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: /Telegram, headers: {Host: cf.d3z.net}}}
-  - {name: 美國 3, server: 65.109.202.24, port: 10925, type: vless, uuid: 8dd851a9-39e4-4baf-a443-17c688aa6dfc, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
-  - {name: 美國 4, server: 63.141.128.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 荷蘭 79, server: 62.72.166.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: bitget1.asdasd.click}}}
+  - {name: 美國 3, server: 63.141.128.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 荷蘭 54, server: 62.72.166.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: bitget1.asdasd.click}}}
   - {name: 烏克蘭 2, server: 62.72.166.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: bitget1.asdasd.click, network: ws, ws-opts: {path: /Telegram, headers: {Host: bitget1.asdasd.click}}}
   - {name: 🇩🇪 德国 2, server: 62.72.166.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}}
   - {name: 烏克蘭 3, server: 62.72.166.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: cf.d3z.net}}}
@@ -179,7 +146,6 @@ proxies:
   - {name: 烏克蘭 5, server: 62.72.166.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
   - {name: 烏克蘭 6, server: 62.72.166.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
   - {name: 烏克蘭 7, server: 62.72.166.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
-  - {name: 🇫🇷 法国, server: 51.159.111.32, port: 31180, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: apple.com, skip-cert-verify: false}
   - {name: 俄羅斯 9, server: 5.182.85.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
   - {name: 🇷🇺 俄罗斯, server: 5.182.85.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 🇷🇺 俄罗斯 2, server: 5.182.85.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram @ CoinTech2U2 /?ed", headers: {Host: ip.langmanshanxi.top}}}
@@ -190,21 +156,21 @@ proxies:
   - {name: 🇺🇸 美国 5, server: 5.182.84.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 🇺🇸 美国 6, server: 5.182.84.20, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: us.laoyoutiao.link}}}
   - {name: 俄羅斯 14, server: 5.182.84.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 德國 12, server: 5.10.215.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}}
-  - {name: 德國 13, server: 5.10.215.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sg.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram, headers: {Host: sg.laoyoutiao.link}}}
+  - {name: 德國 9, server: 5.10.215.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}}
+  - {name: 德國 10, server: 5.10.215.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: sg.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram, headers: {Host: sg.laoyoutiao.link}}}
   - {name: 🇩🇪 德国 4, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: ip.langmanshanxi.top}}}
   - {name: 🇩🇪 德国 5, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 德國 14, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed", headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 德國 15, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed", headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 德國 16, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 德國 17, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /Telegram, headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 德國 18, server: 5.10.214.247, port: 8880, type: vless, uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc, tls: false, tfo: false, skip-cert-verify: false, servername: ex.sue.x10.mx, network: ws, ws-opts: {path: /Telegram, headers: {Host: ex.sue.x10.mx}}}
-  - {name: 德國 19, server: 5.10.214.213, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}}
-  - {name: 德國 20, server: 5.10.214.20, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /, headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 美國 5, server: 5.10.214.20, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram@节点狂魔2/?ed=2560", headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 德國 21, server: 5.10.214.20, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/freecodes2/?ed=2560", headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 德國 22, server: 5.10.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed", headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 德國 23, server: 5.10.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed", headers: {Host: ip.langmanshanxi.top}}}
+  - {name: 德國 11, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed", headers: {Host: ip.langmanshanxi.top}}}
+  - {name: 德國 12, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed", headers: {Host: ip.langmanshanxi.top}}}
+  - {name: 德國 13, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}}
+  - {name: 德國 14, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /Telegram, headers: {Host: ip.langmanshanxi.top}}}
+  - {name: 德國 15, server: 5.10.214.247, port: 8880, type: vless, uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc, tls: false, tfo: false, skip-cert-verify: false, servername: ex.sue.x10.mx, network: ws, ws-opts: {path: /Telegram, headers: {Host: ex.sue.x10.mx}}}
+  - {name: 德國 16, server: 5.10.214.213, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}}
+  - {name: 德國 17, server: 5.10.214.20, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /, headers: {Host: ip.langmanshanxi.top}}}
+  - {name: 美國 4, server: 5.10.214.20, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram@节点狂魔2/?ed=2560", headers: {Host: ip.langmanshanxi.top}}}
+  - {name: 德國 18, server: 5.10.214.20, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/freecodes2/?ed=2560", headers: {Host: ip.langmanshanxi.top}}}
+  - {name: 德國 19, server: 5.10.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed", headers: {Host: ip.langmanshanxi.top}}}
+  - {name: 德國 20, server: 5.10.214.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed", headers: {Host: ip.langmanshanxi.top}}}
   - {name: 🇰🇷 韓國, server: 49.168.245.58, port: 50000, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: jp.laoyoutiao.link}}}
   - {name: 🇰🇷 韓國 2, server: 49.168.245.58, port: 50000, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@ CoinTech2U2/?ed=2560", headers: {Host: jp.laoyoutiao.link}}}
   - {name: 俄羅斯 15, server: 46.254.93.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
@@ -261,17 +227,17 @@ proxies:
   - {name: 俄羅斯 41, server: 45.159.217.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
   - {name: 俄羅斯 42, server: 45.159.216.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed", headers: {Host: ip.langmanshanxi.top}}}
   - {name: 俄羅斯 43, server: 45.159.216.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed", headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 美國 6, server: 45.153.7.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
-  - {name: 美國 7, server: 45.153.7.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 美國 5, server: 45.153.7.188, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 美國 6, server: 45.153.7.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 🇩🇪 德国 7, server: 45.149.12.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: cf.d3z.net}}}
-  - {name: 荷蘭 80, server: 45.149.12.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram@ CoinTech2U2/?ed=2560", headers: {Host: cf.d3z.net}}}
-  - {name: 荷蘭 81, server: 45.149.12.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: cf.d3z.net}}}
-  - {name: 美國 8, server: 45.149.12.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}}
-  - {name: 荷蘭 82, server: 45.149.12.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: "/Telegram@ CoinTech2U2/?ed=2560", headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 荷蘭 55, server: 45.149.12.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram@ CoinTech2U2/?ed=2560", headers: {Host: cf.d3z.net}}}
+  - {name: 荷蘭 56, server: 45.149.12.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram @ CoinTech2U2 /?ed=2560", headers: {Host: cf.d3z.net}}}
+  - {name: 美國 7, server: 45.149.12.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}}
+  - {name: 荷蘭 57, server: 45.149.12.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: "/Telegram@ CoinTech2U2/?ed=2560", headers: {Host: Telegram-channel- CoinTech2U2}}}
   - {name: 🇺🇸 美国 8, server: 45.149.12.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: ip.langmanshanxi.top}}}
-  - {name: 美國 9, server: 45.149.12.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 美國 10, server: 45.149.12.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
-  - {name: 美國 11, server: 45.149.12.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 美國 8, server: 45.149.12.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 美國 9, server: 45.149.12.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 美國 10, server: 45.149.12.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
   - {name: 俄羅斯 44, server: 45.142.120.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /Telegram, headers: {Host: Telegram-channel- CoinTech2U2}}}
   - {name: 🇺🇸 美国 9, server: 45.142.120.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 俄羅斯 45, server: 45.142.120.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /Telegram, headers: {Host: Telegram-channel-WangCai2}}}
@@ -279,12 +245,12 @@ proxies:
   - {name: 俄羅斯 47, server: 45.142.120.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 🇦🇪 阿联酋, server: 45.131.4.85, port: 80, type: vless, uuid: 2036e2c3-18a5-4eed-9db4-f91a7f02c7d5, tls: false, tfo: false, skip-cert-verify: false, servername: zoomgov.vipren.biz.id, network: ws, ws-opts: {path: /193.123.81.105=443, headers: {Host: zoomgov.vipren.biz.id}}}
   - {name: 🇳🇱 荷兰, server: 45.131.211.177, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rAyAn-12.LeIlA.DpDnS.OrG, network: ws, ws-opts: {path: /@rayan_config, headers: {Host: rAyAn-12.LeIlA.DpDnS.OrG}}}
-  - {name: 荷蘭 83, server: 45.131.211.177, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rAyAn-12.LeIlA.DpDnS.OrG, network: ws, ws-opts: {path: /@Rayan_Config, headers: {Host: rAyAn-12.LeIlA.DpDnS.OrG}}}
-  - {name: 荷蘭 84, server: 45.131.211.177, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rAyAn-12.LeIlA.DpDnS.OrG, network: ws, ws-opts: {path: /@rayan_config, headers: {Host: rAyAn-12.LeIlA.DpDnS.OrG}}}
-  - {name: 荷蘭 85, server: 45.131.208.79, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rayan-12.leila.dpdns.org, network: ws, ws-opts: {path: /@rayan_config, headers: {Host: rayan-12.leila.dpdns.org}}}
+  - {name: 荷蘭 58, server: 45.131.211.177, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rAyAn-12.LeIlA.DpDnS.OrG, network: ws, ws-opts: {path: /@Rayan_Config, headers: {Host: rAyAn-12.LeIlA.DpDnS.OrG}}}
+  - {name: 荷蘭 59, server: 45.131.211.177, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rAyAn-12.LeIlA.DpDnS.OrG, network: ws, ws-opts: {path: /@rayan_config, headers: {Host: rAyAn-12.LeIlA.DpDnS.OrG}}}
+  - {name: 荷蘭 60, server: 45.131.208.79, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rayan-12.leila.dpdns.org, network: ws, ws-opts: {path: /@rayan_config, headers: {Host: rayan-12.leila.dpdns.org}}}
   - {name: 🇳🇱 荷兰 2, server: 45.131.208.14, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rAyAn-12.LeIlA.DpDnS.OrG, network: ws, ws-opts: {path: /@rayan_config, headers: {Host: rAyAn-12.LeIlA.DpDnS.OrG}}}
   - {name: 🇳🇱 荷兰 3, server: 45.131.208.14, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rAyAn-12.LeIlA.DpDnS.OrG, client-fingerprint: chrome, network: ws, ws-opts: {path: /@rayan_config, headers: {Host: rAyAn-12.LeIlA.DpDnS.OrG}}}
-  - {name: 荷蘭 86, server: 45.131.208.14, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rAyAn-12.LeIlA.DpDnS.OrG, network: ws, ws-opts: {path: /@rayan_config, headers: {Host: rAyAn-12.LeIlA.DpDnS.OrG}}}
+  - {name: 荷蘭 61, server: 45.131.208.14, port: 443, type: vless, uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8, tls: true, tfo: false, skip-cert-verify: false, servername: rAyAn-12.LeIlA.DpDnS.OrG, network: ws, ws-opts: {path: /@rayan_config, headers: {Host: rAyAn-12.LeIlA.DpDnS.OrG}}}
   - {name: 烏克蘭 16, server: 31.43.179.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 烏克蘭 17, server: 31.43.179.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
   - {name: 🇺🇦 乌克兰, server: 31.43.179.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed", headers: {Host: ip.langmanshanxi.top}}}
@@ -305,6 +271,40 @@ proxies:
   - {name: 英國 14, server: 25.129.198.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /Telegram @WangCai2, headers: {Host: ip.langmanshanxi.top}}}
   - {name: 英國 15, server: 25.129.198.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: freecodes蘇小檸 | 華東電訊 | 解鎖Netflix, headers: {Host: kjgx.laoyoutiao.link}}}
   - {name: 英國 16, server: 25.129.197.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 英國 17, server: 25.129.196.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3 @WangCai2, headers: {Host: jp.laoyoutiao.link}}}
+  - {name: 英國 18, server: 25.129.196.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 🇰🇷 韓國 3, server: 220.118.236.239, port: 12290, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: jp.laoyoutiao.link}}}
+  - {name: 英國 19, server: 217.163.76.201, port: 443, type: vless, uuid: 55520747-311e-4015-83ce-be46e2060ce3, tls: true, alpn: [h3], tfo: false, skip-cert-verify: false, servername: 01n.bgm2024.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 01n.bgm2024.dpdns.org}}}
+  - {name: 🇸🇪 瑞典, server: 217.142.243.226, port: 443, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: jp.laoyoutiao.link}}}
+  - {name: 美國 11, server: 216.24.57.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}}
+  - {name: 美國 12, server: 216.24.57.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 美國 13, server: 216.24.57.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 美國 14, server: 216.24.57.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@ CoinTech2U2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 美國 15, server: 216.205.52.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 美國 16, server: 216.205.52.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /Telegram, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 美國 17, server: 216.205.52.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 美國 18, server: 216.205.52.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 奧地利, server: 212.183.88.94, port: 443, type: vless, uuid: 55520747-311e-4015-83ce-be46e2060ce3, tls: true, tfo: false, skip-cert-verify: false, servername: 01v.bgm2024.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 01v.bgm2024.dpdns.org}}}
+  - {name: 奧地利 2, server: 212.183.88.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}}
+  - {name: 奧地利 3, server: 212.183.88.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: cf.d3z.net}}}
+  - {name: 🇺🇸 美国 10, server: 212.183.88.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: "🔒 [By EbraSha]", network: ws, ws-opts: {path: "/🔒 [By EbraSha]", headers: {Host: "🔒 [By EbraSha]"}}}
+  - {name: 奧地利 4, server: 212.183.88.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 奧地利 5, server: 212.183.88.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 奧地利 6, server: 212.183.88.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 奧地利 7, server: 212.183.88.136, port: 443, type: vless, uuid: 55520747-311e-4015-83ce-be46e2060ce3, tls: true, alpn: [h3], tfo: false, skip-cert-verify: false, servername: 01n.bgm2024.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 01n.bgm2024.dpdns.org}}}
+  - {name: 奧地利 8, server: 212.183.88.136, port: 443, type: vless, uuid: 55520747-311e-4015-83ce-be46e2060ce3, tls: true, alpn: [h3], tfo: false, skip-cert-verify: false, servername: 01v.bgm2024.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 01v.bgm2024.dpdns.org}}}
+  - {name: 🇰🇷 韓國 4, server: 211.248.90.150, port: 13722, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: jp.laoyoutiao.link}}}
+  - {name: 🇰🇷 韩国, server: 211.193.211.252, port: 50001, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: true, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram @WangCai2 /?ed=2560", headers: {Host: jp.laoyoutiao.link}}}
+  - {name: 美國 19, server: 209.94.90.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram, headers: {Host: jp.laoyoutiao.link}}}
+  - {name: 美國 20, server: 209.94.90.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇺🇸 美国 11, server: 209.94.90.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: "🔒 [By EbraSha]", network: ws, ws-opts: {path: "/🔒 [By EbraSha]", headers: {Host: "🔒 [By EbraSha]"}}}
+  - {name: 美國 21, server: 209.94.90.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, tfo: false, skip-cert-verify: false, servername: cf.d3z.net, network: ws, ws-opts: {path: /, headers: {Host: cf.d3z.net}}}
+  - {name: 🇨🇦 加拿大 4, server: 205.233.181.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel-WangCai2}}}
+  - {name: 🇨🇦 加拿大 5, server: 205.233.181.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 🇨🇦 加拿大 6, server: 205.233.181.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, tfo: false, skip-cert-verify: false, servername: Telegram-channel- CoinTech2U2, network: ws, ws-opts: {path: /, headers: {Host: Telegram-channel- CoinTech2U2}}}
+  - {name: 🇨🇦 加拿大 7, server: 205.233.181.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}}
+  - {name: 美國 22, server: 199.34.230.29, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: /, headers: {Host: hk.laoyoutiao.link}}}
+  - {name: 美國 23, server: 199.34.230.29, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, tfo: false, skip-cert-verify: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: /Telegramتعداد, headers: {Host: hk.laoyoutiao.link}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -313,114 +313,85 @@ proxy-groups:
       - DIRECT
       - 荷蘭
       - 荷蘭 2
+      - 🇱🇹 立陶宛
+      - 🇯🇵 日本
       - 荷蘭 3
       - 荷蘭 4
       - 荷蘭 5
       - 荷蘭 6
       - 荷蘭 7
-      - 德國
       - 荷蘭 8
+      - 🇯🇵 日本 2
       - 荷蘭 9
       - 荷蘭 10
-      - 🇱🇹 立陶宛
-      - 🇱🇹 立陶宛 2
       - 荷蘭 11
+      - 🇭🇰 香港
       - 荷蘭 12
+      - 德國
       - 荷蘭 13
       - 荷蘭 14
-      - 🇯🇵 日本
       - 荷蘭 15
       - 荷蘭 16
+      - 🇯🇵 日本 3
+      - 🇭🇰 香港 2
       - 荷蘭 17
       - 荷蘭 18
+      - 🇱🇹 立陶宛 2
       - 荷蘭 19
       - 荷蘭 20
-      - 🇱🇹 立陶宛 3
+      - 🇯🇵 日本 4
       - 荷蘭 21
       - 荷蘭 22
       - 荷蘭 23
-      - 德國 2
-      - 德國 3
       - 荷蘭 24
       - 荷蘭 25
       - 荷蘭 26
       - 荷蘭 27
-      - 🇱🇹 立陶宛 4
-      - 🇯🇵 日本 2
       - 荷蘭 28
       - 荷蘭 29
       - 荷蘭 30
+      - 德國 2
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 德國 3
       - 荷蘭 31
       - 荷蘭 32
       - 荷蘭 33
-      - 🇯🇵 日本 3
+      - 德國 4
       - 荷蘭 34
       - 荷蘭 35
       - 荷蘭 36
-      - 🇭🇰 香港
       - 荷蘭 37
-      - 德國 4
+      - 🇯🇵 日本 7
       - 荷蘭 38
       - 荷蘭 39
       - 荷蘭 40
       - 荷蘭 41
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 2
       - 荷蘭 42
       - 荷蘭 43
-      - 🇱🇹 立陶宛 5
+      - 俄羅斯
       - 荷蘭 44
       - 荷蘭 45
-      - 🇯🇵 日本 5
+      - 🇭🇰 香港 3
       - 荷蘭 46
+      - 德國 5
       - 荷蘭 47
+      - 德國 6
+      - 德國 7
       - 荷蘭 48
       - 荷蘭 49
+      - 🇱🇹 立陶宛 3
+      - 俄羅斯 2
       - 荷蘭 50
+      - 🇯🇵 日本 8
       - 荷蘭 51
       - 荷蘭 52
-      - 荷蘭 53
-      - 荷蘭 54
-      - 荷蘭 55
-      - 德國 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 德國 6
-      - 荷蘭 56
-      - 荷蘭 57
-      - 荷蘭 58
-      - 德國 7
-      - 荷蘭 59
-      - 荷蘭 60
-      - 荷蘭 61
-      - 荷蘭 62
-      - 🇯🇵 日本 8
-      - 荷蘭 63
-      - 荷蘭 64
-      - 荷蘭 65
-      - 荷蘭 66
-      - 荷蘭 67
-      - 荷蘭 68
-      - 俄羅斯
-      - 荷蘭 69
-      - 荷蘭 70
-      - 🇭🇰 香港 3
-      - 荷蘭 71
-      - 德國 8
-      - 荷蘭 72
-      - 德國 9
-      - 德國 10
-      - 荷蘭 73
-      - 荷蘭 74
-      - 🇱🇹 立陶宛 6
-      - 俄羅斯 2
-      - 荷蘭 75
-      - 🇯🇵 日本 9
-      - 荷蘭 76
-      - 荷蘭 77
       - 俄羅斯 3
-      - 荷蘭 78
+      - 荷蘭 53
       - 烏克蘭
+      - 🇱🇹 立陶宛 4
+      - 🇱🇹 立陶宛 5
+      - 🇱🇹 立陶宛 6
       - 🇱🇹 立陶宛 7
       - 🇱🇹 立陶宛 8
       - 🇱🇹 立陶宛 9
@@ -434,10 +405,10 @@ proxy-groups:
       - 🇱🇹 立陶宛 17
       - 🇱🇹 立陶宛 18
       - 🇱🇹 立陶宛 19
+      - 🇺🇸 美国
       - 🇱🇹 立陶宛 20
       - 🇱🇹 立陶宛 21
       - 🇱🇹 立陶宛 22
-      - 🇺🇸 美国
       - 🇱🇹 立陶宛 23
       - 🇱🇹 立陶宛 24
       - 🇱🇹 立陶宛 25
@@ -454,12 +425,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 36
       - 🇱🇹 立陶宛 37
       - 🇱🇹 立陶宛 38
-      - 🇱🇹 立陶宛 39
-      - 🇱🇹 立陶宛 40
-      - 🇱🇹 立陶宛 41
       - 🇳🇴 挪威
       - 🇬🇧 英国
-      - 德國 11
+      - 德國 8
       - 🇩🇪 德国
       - 俄羅斯 4
       - 俄羅斯 5
@@ -475,8 +443,7 @@ proxy-groups:
       - 美國
       - 美國 2
       - 美國 3
-      - 美國 4
-      - 荷蘭 79
+      - 荷蘭 54
       - 烏克蘭 2
       - 🇩🇪 德国 2
       - 烏克蘭 3
@@ -485,7 +452,6 @@ proxy-groups:
       - 烏克蘭 5
       - 烏克蘭 6
       - 烏克蘭 7
-      - 🇫🇷 法国
       - 俄羅斯 9
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
@@ -496,21 +462,21 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 俄羅斯 14
-      - 德國 12
-      - 德國 13
+      - 德國 9
+      - 德國 10
       - 🇩🇪 德国 4
       - 🇩🇪 德国 5
+      - 德國 11
+      - 德國 12
+      - 德國 13
       - 德國 14
       - 德國 15
       - 德國 16
       - 德國 17
+      - 美國 4
       - 德國 18
       - 德國 19
       - 德國 20
-      - 美國 5
-      - 德國 21
-      - 德國 22
-      - 德國 23
       - 🇰🇷 韓國
       - 🇰🇷 韓國 2
       - 俄羅斯 15
@@ -567,17 +533,17 @@ proxy-groups:
       - 俄羅斯 41
       - 俄羅斯 42
       - 俄羅斯 43
+      - 美國 5
       - 美國 6
-      - 美國 7
       - 🇩🇪 德国 7
-      - 荷蘭 80
-      - 荷蘭 81
-      - 美國 8
-      - 荷蘭 82
+      - 荷蘭 55
+      - 荷蘭 56
+      - 美國 7
+      - 荷蘭 57
       - 🇺🇸 美国 8
+      - 美國 8
       - 美國 9
       - 美國 10
-      - 美國 11
       - 俄羅斯 44
       - 🇺🇸 美国 9
       - 俄羅斯 45
@@ -585,12 +551,12 @@ proxy-groups:
       - 俄羅斯 47
       - 🇦🇪 阿联酋
       - 🇳🇱 荷兰
-      - 荷蘭 83
-      - 荷蘭 84
-      - 荷蘭 85
+      - 荷蘭 58
+      - 荷蘭 59
+      - 荷蘭 60
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
-      - 荷蘭 86
+      - 荷蘭 61
       - 烏克蘭 16
       - 烏克蘭 17
       - 🇺🇦 乌克兰
@@ -611,6 +577,40 @@ proxy-groups:
       - 英國 14
       - 英國 15
       - 英國 16
+      - 英國 17
+      - 英國 18
+      - 🇰🇷 韓國 3
+      - 英國 19
+      - 🇸🇪 瑞典
+      - 美國 11
+      - 美國 12
+      - 美國 13
+      - 美國 14
+      - 美國 15
+      - 美國 16
+      - 美國 17
+      - 美國 18
+      - 奧地利
+      - 奧地利 2
+      - 奧地利 3
+      - 🇺🇸 美国 10
+      - 奧地利 4
+      - 奧地利 5
+      - 奧地利 6
+      - 奧地利 7
+      - 奧地利 8
+      - 🇰🇷 韓國 4
+      - 🇰🇷 韩国
+      - 美國 19
+      - 美國 20
+      - 🇺🇸 美国 11
+      - 美國 21
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 美國 22
+      - 美國 23
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -619,114 +619,85 @@ proxy-groups:
     proxies:
       - 荷蘭
       - 荷蘭 2
+      - 🇱🇹 立陶宛
+      - 🇯🇵 日本
       - 荷蘭 3
       - 荷蘭 4
       - 荷蘭 5
       - 荷蘭 6
       - 荷蘭 7
-      - 德國
       - 荷蘭 8
+      - 🇯🇵 日本 2
       - 荷蘭 9
       - 荷蘭 10
-      - 🇱🇹 立陶宛
-      - 🇱🇹 立陶宛 2
       - 荷蘭 11
+      - 🇭🇰 香港
       - 荷蘭 12
+      - 德國
       - 荷蘭 13
       - 荷蘭 14
-      - 🇯🇵 日本
       - 荷蘭 15
       - 荷蘭 16
+      - 🇯🇵 日本 3
+      - 🇭🇰 香港 2
       - 荷蘭 17
       - 荷蘭 18
+      - 🇱🇹 立陶宛 2
       - 荷蘭 19
       - 荷蘭 20
-      - 🇱🇹 立陶宛 3
+      - 🇯🇵 日本 4
       - 荷蘭 21
       - 荷蘭 22
       - 荷蘭 23
-      - 德國 2
-      - 德國 3
       - 荷蘭 24
       - 荷蘭 25
       - 荷蘭 26
       - 荷蘭 27
-      - 🇱🇹 立陶宛 4
-      - 🇯🇵 日本 2
       - 荷蘭 28
       - 荷蘭 29
       - 荷蘭 30
+      - 德國 2
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 德國 3
       - 荷蘭 31
       - 荷蘭 32
       - 荷蘭 33
-      - 🇯🇵 日本 3
+      - 德國 4
       - 荷蘭 34
       - 荷蘭 35
       - 荷蘭 36
-      - 🇭🇰 香港
       - 荷蘭 37
-      - 德國 4
+      - 🇯🇵 日本 7
       - 荷蘭 38
       - 荷蘭 39
       - 荷蘭 40
       - 荷蘭 41
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 2
       - 荷蘭 42
       - 荷蘭 43
-      - 🇱🇹 立陶宛 5
+      - 俄羅斯
       - 荷蘭 44
       - 荷蘭 45
-      - 🇯🇵 日本 5
+      - 🇭🇰 香港 3
       - 荷蘭 46
+      - 德國 5
       - 荷蘭 47
+      - 德國 6
+      - 德國 7
       - 荷蘭 48
       - 荷蘭 49
+      - 🇱🇹 立陶宛 3
+      - 俄羅斯 2
       - 荷蘭 50
+      - 🇯🇵 日本 8
       - 荷蘭 51
       - 荷蘭 52
-      - 荷蘭 53
-      - 荷蘭 54
-      - 荷蘭 55
-      - 德國 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 德國 6
-      - 荷蘭 56
-      - 荷蘭 57
-      - 荷蘭 58
-      - 德國 7
-      - 荷蘭 59
-      - 荷蘭 60
-      - 荷蘭 61
-      - 荷蘭 62
-      - 🇯🇵 日本 8
-      - 荷蘭 63
-      - 荷蘭 64
-      - 荷蘭 65
-      - 荷蘭 66
-      - 荷蘭 67
-      - 荷蘭 68
-      - 俄羅斯
-      - 荷蘭 69
-      - 荷蘭 70
-      - 🇭🇰 香港 3
-      - 荷蘭 71
-      - 德國 8
-      - 荷蘭 72
-      - 德國 9
-      - 德國 10
-      - 荷蘭 73
-      - 荷蘭 74
-      - 🇱🇹 立陶宛 6
-      - 俄羅斯 2
-      - 荷蘭 75
-      - 🇯🇵 日本 9
-      - 荷蘭 76
-      - 荷蘭 77
       - 俄羅斯 3
-      - 荷蘭 78
+      - 荷蘭 53
       - 烏克蘭
+      - 🇱🇹 立陶宛 4
+      - 🇱🇹 立陶宛 5
+      - 🇱🇹 立陶宛 6
       - 🇱🇹 立陶宛 7
       - 🇱🇹 立陶宛 8
       - 🇱🇹 立陶宛 9
@@ -740,10 +711,10 @@ proxy-groups:
       - 🇱🇹 立陶宛 17
       - 🇱🇹 立陶宛 18
       - 🇱🇹 立陶宛 19
+      - 🇺🇸 美国
       - 🇱🇹 立陶宛 20
       - 🇱🇹 立陶宛 21
       - 🇱🇹 立陶宛 22
-      - 🇺🇸 美国
       - 🇱🇹 立陶宛 23
       - 🇱🇹 立陶宛 24
       - 🇱🇹 立陶宛 25
@@ -760,12 +731,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 36
       - 🇱🇹 立陶宛 37
       - 🇱🇹 立陶宛 38
-      - 🇱🇹 立陶宛 39
-      - 🇱🇹 立陶宛 40
-      - 🇱🇹 立陶宛 41
       - 🇳🇴 挪威
       - 🇬🇧 英国
-      - 德國 11
+      - 德國 8
       - 🇩🇪 德国
       - 俄羅斯 4
       - 俄羅斯 5
@@ -781,8 +749,7 @@ proxy-groups:
       - 美國
       - 美國 2
       - 美國 3
-      - 美國 4
-      - 荷蘭 79
+      - 荷蘭 54
       - 烏克蘭 2
       - 🇩🇪 德国 2
       - 烏克蘭 3
@@ -791,7 +758,6 @@ proxy-groups:
       - 烏克蘭 5
       - 烏克蘭 6
       - 烏克蘭 7
-      - 🇫🇷 法国
       - 俄羅斯 9
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
@@ -802,21 +768,21 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 俄羅斯 14
-      - 德國 12
-      - 德國 13
+      - 德國 9
+      - 德國 10
       - 🇩🇪 德国 4
       - 🇩🇪 德国 5
+      - 德國 11
+      - 德國 12
+      - 德國 13
       - 德國 14
       - 德國 15
       - 德國 16
       - 德國 17
+      - 美國 4
       - 德國 18
       - 德國 19
       - 德國 20
-      - 美國 5
-      - 德國 21
-      - 德國 22
-      - 德國 23
       - 🇰🇷 韓國
       - 🇰🇷 韓國 2
       - 俄羅斯 15
@@ -873,17 +839,17 @@ proxy-groups:
       - 俄羅斯 41
       - 俄羅斯 42
       - 俄羅斯 43
+      - 美國 5
       - 美國 6
-      - 美國 7
       - 🇩🇪 德国 7
-      - 荷蘭 80
-      - 荷蘭 81
-      - 美國 8
-      - 荷蘭 82
+      - 荷蘭 55
+      - 荷蘭 56
+      - 美國 7
+      - 荷蘭 57
       - 🇺🇸 美国 8
+      - 美國 8
       - 美國 9
       - 美國 10
-      - 美國 11
       - 俄羅斯 44
       - 🇺🇸 美国 9
       - 俄羅斯 45
@@ -891,12 +857,12 @@ proxy-groups:
       - 俄羅斯 47
       - 🇦🇪 阿联酋
       - 🇳🇱 荷兰
-      - 荷蘭 83
-      - 荷蘭 84
-      - 荷蘭 85
+      - 荷蘭 58
+      - 荷蘭 59
+      - 荷蘭 60
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
-      - 荷蘭 86
+      - 荷蘭 61
       - 烏克蘭 16
       - 烏克蘭 17
       - 🇺🇦 乌克兰
@@ -917,6 +883,40 @@ proxy-groups:
       - 英國 14
       - 英國 15
       - 英國 16
+      - 英國 17
+      - 英國 18
+      - 🇰🇷 韓國 3
+      - 英國 19
+      - 🇸🇪 瑞典
+      - 美國 11
+      - 美國 12
+      - 美國 13
+      - 美國 14
+      - 美國 15
+      - 美國 16
+      - 美國 17
+      - 美國 18
+      - 奧地利
+      - 奧地利 2
+      - 奧地利 3
+      - 🇺🇸 美国 10
+      - 奧地利 4
+      - 奧地利 5
+      - 奧地利 6
+      - 奧地利 7
+      - 奧地利 8
+      - 🇰🇷 韓國 4
+      - 🇰🇷 韩国
+      - 美國 19
+      - 美國 20
+      - 🇺🇸 美国 11
+      - 美國 21
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 美國 22
+      - 美國 23
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -925,114 +925,85 @@ proxy-groups:
       - 🎯 全球直连
       - 荷蘭
       - 荷蘭 2
+      - 🇱🇹 立陶宛
+      - 🇯🇵 日本
       - 荷蘭 3
       - 荷蘭 4
       - 荷蘭 5
       - 荷蘭 6
       - 荷蘭 7
-      - 德國
       - 荷蘭 8
+      - 🇯🇵 日本 2
       - 荷蘭 9
       - 荷蘭 10
-      - 🇱🇹 立陶宛
-      - 🇱🇹 立陶宛 2
       - 荷蘭 11
+      - 🇭🇰 香港
       - 荷蘭 12
+      - 德國
       - 荷蘭 13
       - 荷蘭 14
-      - 🇯🇵 日本
       - 荷蘭 15
       - 荷蘭 16
+      - 🇯🇵 日本 3
+      - 🇭🇰 香港 2
       - 荷蘭 17
       - 荷蘭 18
+      - 🇱🇹 立陶宛 2
       - 荷蘭 19
       - 荷蘭 20
-      - 🇱🇹 立陶宛 3
+      - 🇯🇵 日本 4
       - 荷蘭 21
       - 荷蘭 22
       - 荷蘭 23
-      - 德國 2
-      - 德國 3
       - 荷蘭 24
       - 荷蘭 25
       - 荷蘭 26
       - 荷蘭 27
-      - 🇱🇹 立陶宛 4
-      - 🇯🇵 日本 2
       - 荷蘭 28
       - 荷蘭 29
       - 荷蘭 30
+      - 德國 2
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 德國 3
       - 荷蘭 31
       - 荷蘭 32
       - 荷蘭 33
-      - 🇯🇵 日本 3
+      - 德國 4
       - 荷蘭 34
       - 荷蘭 35
       - 荷蘭 36
-      - 🇭🇰 香港
       - 荷蘭 37
-      - 德國 4
+      - 🇯🇵 日本 7
       - 荷蘭 38
       - 荷蘭 39
       - 荷蘭 40
       - 荷蘭 41
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 2
       - 荷蘭 42
       - 荷蘭 43
-      - 🇱🇹 立陶宛 5
+      - 俄羅斯
       - 荷蘭 44
       - 荷蘭 45
-      - 🇯🇵 日本 5
+      - 🇭🇰 香港 3
       - 荷蘭 46
+      - 德國 5
       - 荷蘭 47
+      - 德國 6
+      - 德國 7
       - 荷蘭 48
       - 荷蘭 49
+      - 🇱🇹 立陶宛 3
+      - 俄羅斯 2
       - 荷蘭 50
+      - 🇯🇵 日本 8
       - 荷蘭 51
       - 荷蘭 52
-      - 荷蘭 53
-      - 荷蘭 54
-      - 荷蘭 55
-      - 德國 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 德國 6
-      - 荷蘭 56
-      - 荷蘭 57
-      - 荷蘭 58
-      - 德國 7
-      - 荷蘭 59
-      - 荷蘭 60
-      - 荷蘭 61
-      - 荷蘭 62
-      - 🇯🇵 日本 8
-      - 荷蘭 63
-      - 荷蘭 64
-      - 荷蘭 65
-      - 荷蘭 66
-      - 荷蘭 67
-      - 荷蘭 68
-      - 俄羅斯
-      - 荷蘭 69
-      - 荷蘭 70
-      - 🇭🇰 香港 3
-      - 荷蘭 71
-      - 德國 8
-      - 荷蘭 72
-      - 德國 9
-      - 德國 10
-      - 荷蘭 73
-      - 荷蘭 74
-      - 🇱🇹 立陶宛 6
-      - 俄羅斯 2
-      - 荷蘭 75
-      - 🇯🇵 日本 9
-      - 荷蘭 76
-      - 荷蘭 77
       - 俄羅斯 3
-      - 荷蘭 78
+      - 荷蘭 53
       - 烏克蘭
+      - 🇱🇹 立陶宛 4
+      - 🇱🇹 立陶宛 5
+      - 🇱🇹 立陶宛 6
       - 🇱🇹 立陶宛 7
       - 🇱🇹 立陶宛 8
       - 🇱🇹 立陶宛 9
@@ -1046,10 +1017,10 @@ proxy-groups:
       - 🇱🇹 立陶宛 17
       - 🇱🇹 立陶宛 18
       - 🇱🇹 立陶宛 19
+      - 🇺🇸 美国
       - 🇱🇹 立陶宛 20
       - 🇱🇹 立陶宛 21
       - 🇱🇹 立陶宛 22
-      - 🇺🇸 美国
       - 🇱🇹 立陶宛 23
       - 🇱🇹 立陶宛 24
       - 🇱🇹 立陶宛 25
@@ -1066,12 +1037,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 36
       - 🇱🇹 立陶宛 37
       - 🇱🇹 立陶宛 38
-      - 🇱🇹 立陶宛 39
-      - 🇱🇹 立陶宛 40
-      - 🇱🇹 立陶宛 41
       - 🇳🇴 挪威
       - 🇬🇧 英国
-      - 德國 11
+      - 德國 8
       - 🇩🇪 德国
       - 俄羅斯 4
       - 俄羅斯 5
@@ -1087,8 +1055,7 @@ proxy-groups:
       - 美國
       - 美國 2
       - 美國 3
-      - 美國 4
-      - 荷蘭 79
+      - 荷蘭 54
       - 烏克蘭 2
       - 🇩🇪 德国 2
       - 烏克蘭 3
@@ -1097,7 +1064,6 @@ proxy-groups:
       - 烏克蘭 5
       - 烏克蘭 6
       - 烏克蘭 7
-      - 🇫🇷 法国
       - 俄羅斯 9
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
@@ -1108,21 +1074,21 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 俄羅斯 14
-      - 德國 12
-      - 德國 13
+      - 德國 9
+      - 德國 10
       - 🇩🇪 德国 4
       - 🇩🇪 德国 5
+      - 德國 11
+      - 德國 12
+      - 德國 13
       - 德國 14
       - 德國 15
       - 德國 16
       - 德國 17
+      - 美國 4
       - 德國 18
       - 德國 19
       - 德國 20
-      - 美國 5
-      - 德國 21
-      - 德國 22
-      - 德國 23
       - 🇰🇷 韓國
       - 🇰🇷 韓國 2
       - 俄羅斯 15
@@ -1179,17 +1145,17 @@ proxy-groups:
       - 俄羅斯 41
       - 俄羅斯 42
       - 俄羅斯 43
+      - 美國 5
       - 美國 6
-      - 美國 7
       - 🇩🇪 德国 7
-      - 荷蘭 80
-      - 荷蘭 81
-      - 美國 8
-      - 荷蘭 82
+      - 荷蘭 55
+      - 荷蘭 56
+      - 美國 7
+      - 荷蘭 57
       - 🇺🇸 美国 8
+      - 美國 8
       - 美國 9
       - 美國 10
-      - 美國 11
       - 俄羅斯 44
       - 🇺🇸 美国 9
       - 俄羅斯 45
@@ -1197,12 +1163,12 @@ proxy-groups:
       - 俄羅斯 47
       - 🇦🇪 阿联酋
       - 🇳🇱 荷兰
-      - 荷蘭 83
-      - 荷蘭 84
-      - 荷蘭 85
+      - 荷蘭 58
+      - 荷蘭 59
+      - 荷蘭 60
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
-      - 荷蘭 86
+      - 荷蘭 61
       - 烏克蘭 16
       - 烏克蘭 17
       - 🇺🇦 乌克兰
@@ -1223,6 +1189,40 @@ proxy-groups:
       - 英國 14
       - 英國 15
       - 英國 16
+      - 英國 17
+      - 英國 18
+      - 🇰🇷 韓國 3
+      - 英國 19
+      - 🇸🇪 瑞典
+      - 美國 11
+      - 美國 12
+      - 美國 13
+      - 美國 14
+      - 美國 15
+      - 美國 16
+      - 美國 17
+      - 美國 18
+      - 奧地利
+      - 奧地利 2
+      - 奧地利 3
+      - 🇺🇸 美国 10
+      - 奧地利 4
+      - 奧地利 5
+      - 奧地利 6
+      - 奧地利 7
+      - 奧地利 8
+      - 🇰🇷 韓國 4
+      - 🇰🇷 韩国
+      - 美國 19
+      - 美國 20
+      - 🇺🇸 美国 11
+      - 美國 21
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 美國 22
+      - 美國 23
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1230,114 +1230,85 @@ proxy-groups:
       - 🎯 全球直连
       - 荷蘭
       - 荷蘭 2
+      - 🇱🇹 立陶宛
+      - 🇯🇵 日本
       - 荷蘭 3
       - 荷蘭 4
       - 荷蘭 5
       - 荷蘭 6
       - 荷蘭 7
-      - 德國
       - 荷蘭 8
+      - 🇯🇵 日本 2
       - 荷蘭 9
       - 荷蘭 10
-      - 🇱🇹 立陶宛
-      - 🇱🇹 立陶宛 2
       - 荷蘭 11
+      - 🇭🇰 香港
       - 荷蘭 12
+      - 德國
       - 荷蘭 13
       - 荷蘭 14
-      - 🇯🇵 日本
       - 荷蘭 15
       - 荷蘭 16
+      - 🇯🇵 日本 3
+      - 🇭🇰 香港 2
       - 荷蘭 17
       - 荷蘭 18
+      - 🇱🇹 立陶宛 2
       - 荷蘭 19
       - 荷蘭 20
-      - 🇱🇹 立陶宛 3
+      - 🇯🇵 日本 4
       - 荷蘭 21
       - 荷蘭 22
       - 荷蘭 23
-      - 德國 2
-      - 德國 3
       - 荷蘭 24
       - 荷蘭 25
       - 荷蘭 26
       - 荷蘭 27
-      - 🇱🇹 立陶宛 4
-      - 🇯🇵 日本 2
       - 荷蘭 28
       - 荷蘭 29
       - 荷蘭 30
+      - 德國 2
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 德國 3
       - 荷蘭 31
       - 荷蘭 32
       - 荷蘭 33
-      - 🇯🇵 日本 3
+      - 德國 4
       - 荷蘭 34
       - 荷蘭 35
       - 荷蘭 36
-      - 🇭🇰 香港
       - 荷蘭 37
-      - 德國 4
+      - 🇯🇵 日本 7
       - 荷蘭 38
       - 荷蘭 39
       - 荷蘭 40
       - 荷蘭 41
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 2
       - 荷蘭 42
       - 荷蘭 43
-      - 🇱🇹 立陶宛 5
+      - 俄羅斯
       - 荷蘭 44
       - 荷蘭 45
-      - 🇯🇵 日本 5
+      - 🇭🇰 香港 3
       - 荷蘭 46
+      - 德國 5
       - 荷蘭 47
+      - 德國 6
+      - 德國 7
       - 荷蘭 48
       - 荷蘭 49
+      - 🇱🇹 立陶宛 3
+      - 俄羅斯 2
       - 荷蘭 50
+      - 🇯🇵 日本 8
       - 荷蘭 51
       - 荷蘭 52
-      - 荷蘭 53
-      - 荷蘭 54
-      - 荷蘭 55
-      - 德國 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 德國 6
-      - 荷蘭 56
-      - 荷蘭 57
-      - 荷蘭 58
-      - 德國 7
-      - 荷蘭 59
-      - 荷蘭 60
-      - 荷蘭 61
-      - 荷蘭 62
-      - 🇯🇵 日本 8
-      - 荷蘭 63
-      - 荷蘭 64
-      - 荷蘭 65
-      - 荷蘭 66
-      - 荷蘭 67
-      - 荷蘭 68
-      - 俄羅斯
-      - 荷蘭 69
-      - 荷蘭 70
-      - 🇭🇰 香港 3
-      - 荷蘭 71
-      - 德國 8
-      - 荷蘭 72
-      - 德國 9
-      - 德國 10
-      - 荷蘭 73
-      - 荷蘭 74
-      - 🇱🇹 立陶宛 6
-      - 俄羅斯 2
-      - 荷蘭 75
-      - 🇯🇵 日本 9
-      - 荷蘭 76
-      - 荷蘭 77
       - 俄羅斯 3
-      - 荷蘭 78
+      - 荷蘭 53
       - 烏克蘭
+      - 🇱🇹 立陶宛 4
+      - 🇱🇹 立陶宛 5
+      - 🇱🇹 立陶宛 6
       - 🇱🇹 立陶宛 7
       - 🇱🇹 立陶宛 8
       - 🇱🇹 立陶宛 9
@@ -1351,10 +1322,10 @@ proxy-groups:
       - 🇱🇹 立陶宛 17
       - 🇱🇹 立陶宛 18
       - 🇱🇹 立陶宛 19
+      - 🇺🇸 美国
       - 🇱🇹 立陶宛 20
       - 🇱🇹 立陶宛 21
       - 🇱🇹 立陶宛 22
-      - 🇺🇸 美国
       - 🇱🇹 立陶宛 23
       - 🇱🇹 立陶宛 24
       - 🇱🇹 立陶宛 25
@@ -1371,12 +1342,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 36
       - 🇱🇹 立陶宛 37
       - 🇱🇹 立陶宛 38
-      - 🇱🇹 立陶宛 39
-      - 🇱🇹 立陶宛 40
-      - 🇱🇹 立陶宛 41
       - 🇳🇴 挪威
       - 🇬🇧 英国
-      - 德國 11
+      - 德國 8
       - 🇩🇪 德国
       - 俄羅斯 4
       - 俄羅斯 5
@@ -1392,8 +1360,7 @@ proxy-groups:
       - 美國
       - 美國 2
       - 美國 3
-      - 美國 4
-      - 荷蘭 79
+      - 荷蘭 54
       - 烏克蘭 2
       - 🇩🇪 德国 2
       - 烏克蘭 3
@@ -1402,7 +1369,6 @@ proxy-groups:
       - 烏克蘭 5
       - 烏克蘭 6
       - 烏克蘭 7
-      - 🇫🇷 法国
       - 俄羅斯 9
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
@@ -1413,21 +1379,21 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 俄羅斯 14
-      - 德國 12
-      - 德國 13
+      - 德國 9
+      - 德國 10
       - 🇩🇪 德国 4
       - 🇩🇪 德国 5
+      - 德國 11
+      - 德國 12
+      - 德國 13
       - 德國 14
       - 德國 15
       - 德國 16
       - 德國 17
+      - 美國 4
       - 德國 18
       - 德國 19
       - 德國 20
-      - 美國 5
-      - 德國 21
-      - 德國 22
-      - 德國 23
       - 🇰🇷 韓國
       - 🇰🇷 韓國 2
       - 俄羅斯 15
@@ -1484,17 +1450,17 @@ proxy-groups:
       - 俄羅斯 41
       - 俄羅斯 42
       - 俄羅斯 43
+      - 美國 5
       - 美國 6
-      - 美國 7
       - 🇩🇪 德国 7
-      - 荷蘭 80
-      - 荷蘭 81
-      - 美國 8
-      - 荷蘭 82
+      - 荷蘭 55
+      - 荷蘭 56
+      - 美國 7
+      - 荷蘭 57
       - 🇺🇸 美国 8
+      - 美國 8
       - 美國 9
       - 美國 10
-      - 美國 11
       - 俄羅斯 44
       - 🇺🇸 美国 9
       - 俄羅斯 45
@@ -1502,12 +1468,12 @@ proxy-groups:
       - 俄羅斯 47
       - 🇦🇪 阿联酋
       - 🇳🇱 荷兰
-      - 荷蘭 83
-      - 荷蘭 84
-      - 荷蘭 85
+      - 荷蘭 58
+      - 荷蘭 59
+      - 荷蘭 60
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
-      - 荷蘭 86
+      - 荷蘭 61
       - 烏克蘭 16
       - 烏克蘭 17
       - 🇺🇦 乌克兰
@@ -1528,6 +1494,40 @@ proxy-groups:
       - 英國 14
       - 英國 15
       - 英國 16
+      - 英國 17
+      - 英國 18
+      - 🇰🇷 韓國 3
+      - 英國 19
+      - 🇸🇪 瑞典
+      - 美國 11
+      - 美國 12
+      - 美國 13
+      - 美國 14
+      - 美國 15
+      - 美國 16
+      - 美國 17
+      - 美國 18
+      - 奧地利
+      - 奧地利 2
+      - 奧地利 3
+      - 🇺🇸 美国 10
+      - 奧地利 4
+      - 奧地利 5
+      - 奧地利 6
+      - 奧地利 7
+      - 奧地利 8
+      - 🇰🇷 韓國 4
+      - 🇰🇷 韩国
+      - 美國 19
+      - 美國 20
+      - 🇺🇸 美国 11
+      - 美國 21
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 美國 22
+      - 美國 23
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -1535,114 +1535,85 @@ proxy-groups:
       - 🚀 节点选择
       - 荷蘭
       - 荷蘭 2
+      - 🇱🇹 立陶宛
+      - 🇯🇵 日本
       - 荷蘭 3
       - 荷蘭 4
       - 荷蘭 5
       - 荷蘭 6
       - 荷蘭 7
-      - 德國
       - 荷蘭 8
+      - 🇯🇵 日本 2
       - 荷蘭 9
       - 荷蘭 10
-      - 🇱🇹 立陶宛
-      - 🇱🇹 立陶宛 2
       - 荷蘭 11
+      - 🇭🇰 香港
       - 荷蘭 12
+      - 德國
       - 荷蘭 13
       - 荷蘭 14
-      - 🇯🇵 日本
       - 荷蘭 15
       - 荷蘭 16
+      - 🇯🇵 日本 3
+      - 🇭🇰 香港 2
       - 荷蘭 17
       - 荷蘭 18
+      - 🇱🇹 立陶宛 2
       - 荷蘭 19
       - 荷蘭 20
-      - 🇱🇹 立陶宛 3
+      - 🇯🇵 日本 4
       - 荷蘭 21
       - 荷蘭 22
       - 荷蘭 23
-      - 德國 2
-      - 德國 3
       - 荷蘭 24
       - 荷蘭 25
       - 荷蘭 26
       - 荷蘭 27
-      - 🇱🇹 立陶宛 4
-      - 🇯🇵 日本 2
       - 荷蘭 28
       - 荷蘭 29
       - 荷蘭 30
+      - 德國 2
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 德國 3
       - 荷蘭 31
       - 荷蘭 32
       - 荷蘭 33
-      - 🇯🇵 日本 3
+      - 德國 4
       - 荷蘭 34
       - 荷蘭 35
       - 荷蘭 36
-      - 🇭🇰 香港
       - 荷蘭 37
-      - 德國 4
+      - 🇯🇵 日本 7
       - 荷蘭 38
       - 荷蘭 39
       - 荷蘭 40
       - 荷蘭 41
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 2
       - 荷蘭 42
       - 荷蘭 43
-      - 🇱🇹 立陶宛 5
+      - 俄羅斯
       - 荷蘭 44
       - 荷蘭 45
-      - 🇯🇵 日本 5
+      - 🇭🇰 香港 3
       - 荷蘭 46
+      - 德國 5
       - 荷蘭 47
+      - 德國 6
+      - 德國 7
       - 荷蘭 48
       - 荷蘭 49
+      - 🇱🇹 立陶宛 3
+      - 俄羅斯 2
       - 荷蘭 50
+      - 🇯🇵 日本 8
       - 荷蘭 51
       - 荷蘭 52
-      - 荷蘭 53
-      - 荷蘭 54
-      - 荷蘭 55
-      - 德國 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 德國 6
-      - 荷蘭 56
-      - 荷蘭 57
-      - 荷蘭 58
-      - 德國 7
-      - 荷蘭 59
-      - 荷蘭 60
-      - 荷蘭 61
-      - 荷蘭 62
-      - 🇯🇵 日本 8
-      - 荷蘭 63
-      - 荷蘭 64
-      - 荷蘭 65
-      - 荷蘭 66
-      - 荷蘭 67
-      - 荷蘭 68
-      - 俄羅斯
-      - 荷蘭 69
-      - 荷蘭 70
-      - 🇭🇰 香港 3
-      - 荷蘭 71
-      - 德國 8
-      - 荷蘭 72
-      - 德國 9
-      - 德國 10
-      - 荷蘭 73
-      - 荷蘭 74
-      - 🇱🇹 立陶宛 6
-      - 俄羅斯 2
-      - 荷蘭 75
-      - 🇯🇵 日本 9
-      - 荷蘭 76
-      - 荷蘭 77
       - 俄羅斯 3
-      - 荷蘭 78
+      - 荷蘭 53
       - 烏克蘭
+      - 🇱🇹 立陶宛 4
+      - 🇱🇹 立陶宛 5
+      - 🇱🇹 立陶宛 6
       - 🇱🇹 立陶宛 7
       - 🇱🇹 立陶宛 8
       - 🇱🇹 立陶宛 9
@@ -1656,10 +1627,10 @@ proxy-groups:
       - 🇱🇹 立陶宛 17
       - 🇱🇹 立陶宛 18
       - 🇱🇹 立陶宛 19
+      - 🇺🇸 美国
       - 🇱🇹 立陶宛 20
       - 🇱🇹 立陶宛 21
       - 🇱🇹 立陶宛 22
-      - 🇺🇸 美国
       - 🇱🇹 立陶宛 23
       - 🇱🇹 立陶宛 24
       - 🇱🇹 立陶宛 25
@@ -1676,12 +1647,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 36
       - 🇱🇹 立陶宛 37
       - 🇱🇹 立陶宛 38
-      - 🇱🇹 立陶宛 39
-      - 🇱🇹 立陶宛 40
-      - 🇱🇹 立陶宛 41
       - 🇳🇴 挪威
       - 🇬🇧 英国
-      - 德國 11
+      - 德國 8
       - 🇩🇪 德国
       - 俄羅斯 4
       - 俄羅斯 5
@@ -1697,8 +1665,7 @@ proxy-groups:
       - 美國
       - 美國 2
       - 美國 3
-      - 美國 4
-      - 荷蘭 79
+      - 荷蘭 54
       - 烏克蘭 2
       - 🇩🇪 德国 2
       - 烏克蘭 3
@@ -1707,7 +1674,6 @@ proxy-groups:
       - 烏克蘭 5
       - 烏克蘭 6
       - 烏克蘭 7
-      - 🇫🇷 法国
       - 俄羅斯 9
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
@@ -1718,21 +1684,21 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 俄羅斯 14
-      - 德國 12
-      - 德國 13
+      - 德國 9
+      - 德國 10
       - 🇩🇪 德国 4
       - 🇩🇪 德国 5
+      - 德國 11
+      - 德國 12
+      - 德國 13
       - 德國 14
       - 德國 15
       - 德國 16
       - 德國 17
+      - 美國 4
       - 德國 18
       - 德國 19
       - 德國 20
-      - 美國 5
-      - 德國 21
-      - 德國 22
-      - 德國 23
       - 🇰🇷 韓國
       - 🇰🇷 韓國 2
       - 俄羅斯 15
@@ -1789,17 +1755,17 @@ proxy-groups:
       - 俄羅斯 41
       - 俄羅斯 42
       - 俄羅斯 43
+      - 美國 5
       - 美國 6
-      - 美國 7
       - 🇩🇪 德国 7
-      - 荷蘭 80
-      - 荷蘭 81
-      - 美國 8
-      - 荷蘭 82
+      - 荷蘭 55
+      - 荷蘭 56
+      - 美國 7
+      - 荷蘭 57
       - 🇺🇸 美国 8
+      - 美國 8
       - 美國 9
       - 美國 10
-      - 美國 11
       - 俄羅斯 44
       - 🇺🇸 美国 9
       - 俄羅斯 45
@@ -1807,12 +1773,12 @@ proxy-groups:
       - 俄羅斯 47
       - 🇦🇪 阿联酋
       - 🇳🇱 荷兰
-      - 荷蘭 83
-      - 荷蘭 84
-      - 荷蘭 85
+      - 荷蘭 58
+      - 荷蘭 59
+      - 荷蘭 60
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
-      - 荷蘭 86
+      - 荷蘭 61
       - 烏克蘭 16
       - 烏克蘭 17
       - 🇺🇦 乌克兰
@@ -1833,6 +1799,40 @@ proxy-groups:
       - 英國 14
       - 英國 15
       - 英國 16
+      - 英國 17
+      - 英國 18
+      - 🇰🇷 韓國 3
+      - 英國 19
+      - 🇸🇪 瑞典
+      - 美國 11
+      - 美國 12
+      - 美國 13
+      - 美國 14
+      - 美國 15
+      - 美國 16
+      - 美國 17
+      - 美國 18
+      - 奧地利
+      - 奧地利 2
+      - 奧地利 3
+      - 🇺🇸 美国 10
+      - 奧地利 4
+      - 奧地利 5
+      - 奧地利 6
+      - 奧地利 7
+      - 奧地利 8
+      - 🇰🇷 韓國 4
+      - 🇰🇷 韩国
+      - 美國 19
+      - 美國 20
+      - 🇺🇸 美国 11
+      - 美國 21
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 美國 22
+      - 美國 23
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1840,114 +1840,85 @@ proxy-groups:
       - 🎯 全球直连
       - 荷蘭
       - 荷蘭 2
+      - 🇱🇹 立陶宛
+      - 🇯🇵 日本
       - 荷蘭 3
       - 荷蘭 4
       - 荷蘭 5
       - 荷蘭 6
       - 荷蘭 7
-      - 德國
       - 荷蘭 8
+      - 🇯🇵 日本 2
       - 荷蘭 9
       - 荷蘭 10
-      - 🇱🇹 立陶宛
-      - 🇱🇹 立陶宛 2
       - 荷蘭 11
+      - 🇭🇰 香港
       - 荷蘭 12
+      - 德國
       - 荷蘭 13
       - 荷蘭 14
-      - 🇯🇵 日本
       - 荷蘭 15
       - 荷蘭 16
+      - 🇯🇵 日本 3
+      - 🇭🇰 香港 2
       - 荷蘭 17
       - 荷蘭 18
+      - 🇱🇹 立陶宛 2
       - 荷蘭 19
       - 荷蘭 20
-      - 🇱🇹 立陶宛 3
+      - 🇯🇵 日本 4
       - 荷蘭 21
       - 荷蘭 22
       - 荷蘭 23
-      - 德國 2
-      - 德國 3
       - 荷蘭 24
       - 荷蘭 25
       - 荷蘭 26
       - 荷蘭 27
-      - 🇱🇹 立陶宛 4
-      - 🇯🇵 日本 2
       - 荷蘭 28
       - 荷蘭 29
       - 荷蘭 30
+      - 德國 2
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 德國 3
       - 荷蘭 31
       - 荷蘭 32
       - 荷蘭 33
-      - 🇯🇵 日本 3
+      - 德國 4
       - 荷蘭 34
       - 荷蘭 35
       - 荷蘭 36
-      - 🇭🇰 香港
       - 荷蘭 37
-      - 德國 4
+      - 🇯🇵 日本 7
       - 荷蘭 38
       - 荷蘭 39
       - 荷蘭 40
       - 荷蘭 41
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 2
       - 荷蘭 42
       - 荷蘭 43
-      - 🇱🇹 立陶宛 5
+      - 俄羅斯
       - 荷蘭 44
       - 荷蘭 45
-      - 🇯🇵 日本 5
+      - 🇭🇰 香港 3
       - 荷蘭 46
+      - 德國 5
       - 荷蘭 47
+      - 德國 6
+      - 德國 7
       - 荷蘭 48
       - 荷蘭 49
+      - 🇱🇹 立陶宛 3
+      - 俄羅斯 2
       - 荷蘭 50
+      - 🇯🇵 日本 8
       - 荷蘭 51
       - 荷蘭 52
-      - 荷蘭 53
-      - 荷蘭 54
-      - 荷蘭 55
-      - 德國 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 德國 6
-      - 荷蘭 56
-      - 荷蘭 57
-      - 荷蘭 58
-      - 德國 7
-      - 荷蘭 59
-      - 荷蘭 60
-      - 荷蘭 61
-      - 荷蘭 62
-      - 🇯🇵 日本 8
-      - 荷蘭 63
-      - 荷蘭 64
-      - 荷蘭 65
-      - 荷蘭 66
-      - 荷蘭 67
-      - 荷蘭 68
-      - 俄羅斯
-      - 荷蘭 69
-      - 荷蘭 70
-      - 🇭🇰 香港 3
-      - 荷蘭 71
-      - 德國 8
-      - 荷蘭 72
-      - 德國 9
-      - 德國 10
-      - 荷蘭 73
-      - 荷蘭 74
-      - 🇱🇹 立陶宛 6
-      - 俄羅斯 2
-      - 荷蘭 75
-      - 🇯🇵 日本 9
-      - 荷蘭 76
-      - 荷蘭 77
       - 俄羅斯 3
-      - 荷蘭 78
+      - 荷蘭 53
       - 烏克蘭
+      - 🇱🇹 立陶宛 4
+      - 🇱🇹 立陶宛 5
+      - 🇱🇹 立陶宛 6
       - 🇱🇹 立陶宛 7
       - 🇱🇹 立陶宛 8
       - 🇱🇹 立陶宛 9
@@ -1961,10 +1932,10 @@ proxy-groups:
       - 🇱🇹 立陶宛 17
       - 🇱🇹 立陶宛 18
       - 🇱🇹 立陶宛 19
+      - 🇺🇸 美国
       - 🇱🇹 立陶宛 20
       - 🇱🇹 立陶宛 21
       - 🇱🇹 立陶宛 22
-      - 🇺🇸 美国
       - 🇱🇹 立陶宛 23
       - 🇱🇹 立陶宛 24
       - 🇱🇹 立陶宛 25
@@ -1981,12 +1952,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 36
       - 🇱🇹 立陶宛 37
       - 🇱🇹 立陶宛 38
-      - 🇱🇹 立陶宛 39
-      - 🇱🇹 立陶宛 40
-      - 🇱🇹 立陶宛 41
       - 🇳🇴 挪威
       - 🇬🇧 英国
-      - 德國 11
+      - 德國 8
       - 🇩🇪 德国
       - 俄羅斯 4
       - 俄羅斯 5
@@ -2002,8 +1970,7 @@ proxy-groups:
       - 美國
       - 美國 2
       - 美國 3
-      - 美國 4
-      - 荷蘭 79
+      - 荷蘭 54
       - 烏克蘭 2
       - 🇩🇪 德国 2
       - 烏克蘭 3
@@ -2012,7 +1979,6 @@ proxy-groups:
       - 烏克蘭 5
       - 烏克蘭 6
       - 烏克蘭 7
-      - 🇫🇷 法国
       - 俄羅斯 9
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
@@ -2023,21 +1989,21 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 俄羅斯 14
-      - 德國 12
-      - 德國 13
+      - 德國 9
+      - 德國 10
       - 🇩🇪 德国 4
       - 🇩🇪 德国 5
+      - 德國 11
+      - 德國 12
+      - 德國 13
       - 德國 14
       - 德國 15
       - 德國 16
       - 德國 17
+      - 美國 4
       - 德國 18
       - 德國 19
       - 德國 20
-      - 美國 5
-      - 德國 21
-      - 德國 22
-      - 德國 23
       - 🇰🇷 韓國
       - 🇰🇷 韓國 2
       - 俄羅斯 15
@@ -2094,17 +2060,17 @@ proxy-groups:
       - 俄羅斯 41
       - 俄羅斯 42
       - 俄羅斯 43
+      - 美國 5
       - 美國 6
-      - 美國 7
       - 🇩🇪 德国 7
-      - 荷蘭 80
-      - 荷蘭 81
-      - 美國 8
-      - 荷蘭 82
+      - 荷蘭 55
+      - 荷蘭 56
+      - 美國 7
+      - 荷蘭 57
       - 🇺🇸 美国 8
+      - 美國 8
       - 美國 9
       - 美國 10
-      - 美國 11
       - 俄羅斯 44
       - 🇺🇸 美国 9
       - 俄羅斯 45
@@ -2112,12 +2078,12 @@ proxy-groups:
       - 俄羅斯 47
       - 🇦🇪 阿联酋
       - 🇳🇱 荷兰
-      - 荷蘭 83
-      - 荷蘭 84
-      - 荷蘭 85
+      - 荷蘭 58
+      - 荷蘭 59
+      - 荷蘭 60
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
-      - 荷蘭 86
+      - 荷蘭 61
       - 烏克蘭 16
       - 烏克蘭 17
       - 🇺🇦 乌克兰
@@ -2138,6 +2104,40 @@ proxy-groups:
       - 英國 14
       - 英國 15
       - 英國 16
+      - 英國 17
+      - 英國 18
+      - 🇰🇷 韓國 3
+      - 英國 19
+      - 🇸🇪 瑞典
+      - 美國 11
+      - 美國 12
+      - 美國 13
+      - 美國 14
+      - 美國 15
+      - 美國 16
+      - 美國 17
+      - 美國 18
+      - 奧地利
+      - 奧地利 2
+      - 奧地利 3
+      - 🇺🇸 美国 10
+      - 奧地利 4
+      - 奧地利 5
+      - 奧地利 6
+      - 奧地利 7
+      - 奧地利 8
+      - 🇰🇷 韓國 4
+      - 🇰🇷 韩国
+      - 美國 19
+      - 美國 20
+      - 🇺🇸 美国 11
+      - 美國 21
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 美國 22
+      - 美國 23
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -2146,114 +2146,85 @@ proxy-groups:
       - ♻️ 自动选择
       - 荷蘭
       - 荷蘭 2
+      - 🇱🇹 立陶宛
+      - 🇯🇵 日本
       - 荷蘭 3
       - 荷蘭 4
       - 荷蘭 5
       - 荷蘭 6
       - 荷蘭 7
-      - 德國
       - 荷蘭 8
+      - 🇯🇵 日本 2
       - 荷蘭 9
       - 荷蘭 10
-      - 🇱🇹 立陶宛
-      - 🇱🇹 立陶宛 2
       - 荷蘭 11
+      - 🇭🇰 香港
       - 荷蘭 12
+      - 德國
       - 荷蘭 13
       - 荷蘭 14
-      - 🇯🇵 日本
       - 荷蘭 15
       - 荷蘭 16
+      - 🇯🇵 日本 3
+      - 🇭🇰 香港 2
       - 荷蘭 17
       - 荷蘭 18
+      - 🇱🇹 立陶宛 2
       - 荷蘭 19
       - 荷蘭 20
-      - 🇱🇹 立陶宛 3
+      - 🇯🇵 日本 4
       - 荷蘭 21
       - 荷蘭 22
       - 荷蘭 23
-      - 德國 2
-      - 德國 3
       - 荷蘭 24
       - 荷蘭 25
       - 荷蘭 26
       - 荷蘭 27
-      - 🇱🇹 立陶宛 4
-      - 🇯🇵 日本 2
       - 荷蘭 28
       - 荷蘭 29
       - 荷蘭 30
+      - 德國 2
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 德國 3
       - 荷蘭 31
       - 荷蘭 32
       - 荷蘭 33
-      - 🇯🇵 日本 3
+      - 德國 4
       - 荷蘭 34
       - 荷蘭 35
       - 荷蘭 36
-      - 🇭🇰 香港
       - 荷蘭 37
-      - 德國 4
+      - 🇯🇵 日本 7
       - 荷蘭 38
       - 荷蘭 39
       - 荷蘭 40
       - 荷蘭 41
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 2
       - 荷蘭 42
       - 荷蘭 43
-      - 🇱🇹 立陶宛 5
+      - 俄羅斯
       - 荷蘭 44
       - 荷蘭 45
-      - 🇯🇵 日本 5
+      - 🇭🇰 香港 3
       - 荷蘭 46
+      - 德國 5
       - 荷蘭 47
+      - 德國 6
+      - 德國 7
       - 荷蘭 48
       - 荷蘭 49
+      - 🇱🇹 立陶宛 3
+      - 俄羅斯 2
       - 荷蘭 50
+      - 🇯🇵 日本 8
       - 荷蘭 51
       - 荷蘭 52
-      - 荷蘭 53
-      - 荷蘭 54
-      - 荷蘭 55
-      - 德國 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 德國 6
-      - 荷蘭 56
-      - 荷蘭 57
-      - 荷蘭 58
-      - 德國 7
-      - 荷蘭 59
-      - 荷蘭 60
-      - 荷蘭 61
-      - 荷蘭 62
-      - 🇯🇵 日本 8
-      - 荷蘭 63
-      - 荷蘭 64
-      - 荷蘭 65
-      - 荷蘭 66
-      - 荷蘭 67
-      - 荷蘭 68
-      - 俄羅斯
-      - 荷蘭 69
-      - 荷蘭 70
-      - 🇭🇰 香港 3
-      - 荷蘭 71
-      - 德國 8
-      - 荷蘭 72
-      - 德國 9
-      - 德國 10
-      - 荷蘭 73
-      - 荷蘭 74
-      - 🇱🇹 立陶宛 6
-      - 俄羅斯 2
-      - 荷蘭 75
-      - 🇯🇵 日本 9
-      - 荷蘭 76
-      - 荷蘭 77
       - 俄羅斯 3
-      - 荷蘭 78
+      - 荷蘭 53
       - 烏克蘭
+      - 🇱🇹 立陶宛 4
+      - 🇱🇹 立陶宛 5
+      - 🇱🇹 立陶宛 6
       - 🇱🇹 立陶宛 7
       - 🇱🇹 立陶宛 8
       - 🇱🇹 立陶宛 9
@@ -2267,10 +2238,10 @@ proxy-groups:
       - 🇱🇹 立陶宛 17
       - 🇱🇹 立陶宛 18
       - 🇱🇹 立陶宛 19
+      - 🇺🇸 美国
       - 🇱🇹 立陶宛 20
       - 🇱🇹 立陶宛 21
       - 🇱🇹 立陶宛 22
-      - 🇺🇸 美国
       - 🇱🇹 立陶宛 23
       - 🇱🇹 立陶宛 24
       - 🇱🇹 立陶宛 25
@@ -2287,12 +2258,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 36
       - 🇱🇹 立陶宛 37
       - 🇱🇹 立陶宛 38
-      - 🇱🇹 立陶宛 39
-      - 🇱🇹 立陶宛 40
-      - 🇱🇹 立陶宛 41
       - 🇳🇴 挪威
       - 🇬🇧 英国
-      - 德國 11
+      - 德國 8
       - 🇩🇪 德国
       - 俄羅斯 4
       - 俄羅斯 5
@@ -2308,8 +2276,7 @@ proxy-groups:
       - 美國
       - 美國 2
       - 美國 3
-      - 美國 4
-      - 荷蘭 79
+      - 荷蘭 54
       - 烏克蘭 2
       - 🇩🇪 德国 2
       - 烏克蘭 3
@@ -2318,7 +2285,6 @@ proxy-groups:
       - 烏克蘭 5
       - 烏克蘭 6
       - 烏克蘭 7
-      - 🇫🇷 法国
       - 俄羅斯 9
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
@@ -2329,21 +2295,21 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 俄羅斯 14
-      - 德國 12
-      - 德國 13
+      - 德國 9
+      - 德國 10
       - 🇩🇪 德国 4
       - 🇩🇪 德国 5
+      - 德國 11
+      - 德國 12
+      - 德國 13
       - 德國 14
       - 德國 15
       - 德國 16
       - 德國 17
+      - 美國 4
       - 德國 18
       - 德國 19
       - 德國 20
-      - 美國 5
-      - 德國 21
-      - 德國 22
-      - 德國 23
       - 🇰🇷 韓國
       - 🇰🇷 韓國 2
       - 俄羅斯 15
@@ -2400,17 +2366,17 @@ proxy-groups:
       - 俄羅斯 41
       - 俄羅斯 42
       - 俄羅斯 43
+      - 美國 5
       - 美國 6
-      - 美國 7
       - 🇩🇪 德国 7
-      - 荷蘭 80
-      - 荷蘭 81
-      - 美國 8
-      - 荷蘭 82
+      - 荷蘭 55
+      - 荷蘭 56
+      - 美國 7
+      - 荷蘭 57
       - 🇺🇸 美国 8
+      - 美國 8
       - 美國 9
       - 美國 10
-      - 美國 11
       - 俄羅斯 44
       - 🇺🇸 美国 9
       - 俄羅斯 45
@@ -2418,12 +2384,12 @@ proxy-groups:
       - 俄羅斯 47
       - 🇦🇪 阿联酋
       - 🇳🇱 荷兰
-      - 荷蘭 83
-      - 荷蘭 84
-      - 荷蘭 85
+      - 荷蘭 58
+      - 荷蘭 59
+      - 荷蘭 60
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
-      - 荷蘭 86
+      - 荷蘭 61
       - 烏克蘭 16
       - 烏克蘭 17
       - 🇺🇦 乌克兰
@@ -2444,6 +2410,40 @@ proxy-groups:
       - 英國 14
       - 英國 15
       - 英國 16
+      - 英國 17
+      - 英國 18
+      - 🇰🇷 韓國 3
+      - 英國 19
+      - 🇸🇪 瑞典
+      - 美國 11
+      - 美國 12
+      - 美國 13
+      - 美國 14
+      - 美國 15
+      - 美國 16
+      - 美國 17
+      - 美國 18
+      - 奧地利
+      - 奧地利 2
+      - 奧地利 3
+      - 🇺🇸 美国 10
+      - 奧地利 4
+      - 奧地利 5
+      - 奧地利 6
+      - 奧地利 7
+      - 奧地利 8
+      - 🇰🇷 韓國 4
+      - 🇰🇷 韩国
+      - 美國 19
+      - 美國 20
+      - 🇺🇸 美国 11
+      - 美國 21
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 美國 22
+      - 美國 23
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2468,114 +2468,85 @@ proxy-groups:
       - ♻️ 自动选择
       - 荷蘭
       - 荷蘭 2
+      - 🇱🇹 立陶宛
+      - 🇯🇵 日本
       - 荷蘭 3
       - 荷蘭 4
       - 荷蘭 5
       - 荷蘭 6
       - 荷蘭 7
-      - 德國
       - 荷蘭 8
+      - 🇯🇵 日本 2
       - 荷蘭 9
       - 荷蘭 10
-      - 🇱🇹 立陶宛
-      - 🇱🇹 立陶宛 2
       - 荷蘭 11
+      - 🇭🇰 香港
       - 荷蘭 12
+      - 德國
       - 荷蘭 13
       - 荷蘭 14
-      - 🇯🇵 日本
       - 荷蘭 15
       - 荷蘭 16
+      - 🇯🇵 日本 3
+      - 🇭🇰 香港 2
       - 荷蘭 17
       - 荷蘭 18
+      - 🇱🇹 立陶宛 2
       - 荷蘭 19
       - 荷蘭 20
-      - 🇱🇹 立陶宛 3
+      - 🇯🇵 日本 4
       - 荷蘭 21
       - 荷蘭 22
       - 荷蘭 23
-      - 德國 2
-      - 德國 3
       - 荷蘭 24
       - 荷蘭 25
       - 荷蘭 26
       - 荷蘭 27
-      - 🇱🇹 立陶宛 4
-      - 🇯🇵 日本 2
       - 荷蘭 28
       - 荷蘭 29
       - 荷蘭 30
+      - 德國 2
+      - 🇯🇵 日本 5
+      - 🇯🇵 日本 6
+      - 德國 3
       - 荷蘭 31
       - 荷蘭 32
       - 荷蘭 33
-      - 🇯🇵 日本 3
+      - 德國 4
       - 荷蘭 34
       - 荷蘭 35
       - 荷蘭 36
-      - 🇭🇰 香港
       - 荷蘭 37
-      - 德國 4
+      - 🇯🇵 日本 7
       - 荷蘭 38
       - 荷蘭 39
       - 荷蘭 40
       - 荷蘭 41
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 2
       - 荷蘭 42
       - 荷蘭 43
-      - 🇱🇹 立陶宛 5
+      - 俄羅斯
       - 荷蘭 44
       - 荷蘭 45
-      - 🇯🇵 日本 5
+      - 🇭🇰 香港 3
       - 荷蘭 46
+      - 德國 5
       - 荷蘭 47
+      - 德國 6
+      - 德國 7
       - 荷蘭 48
       - 荷蘭 49
+      - 🇱🇹 立陶宛 3
+      - 俄羅斯 2
       - 荷蘭 50
+      - 🇯🇵 日本 8
       - 荷蘭 51
       - 荷蘭 52
-      - 荷蘭 53
-      - 荷蘭 54
-      - 荷蘭 55
-      - 德國 5
-      - 🇯🇵 日本 6
-      - 🇯🇵 日本 7
-      - 德國 6
-      - 荷蘭 56
-      - 荷蘭 57
-      - 荷蘭 58
-      - 德國 7
-      - 荷蘭 59
-      - 荷蘭 60
-      - 荷蘭 61
-      - 荷蘭 62
-      - 🇯🇵 日本 8
-      - 荷蘭 63
-      - 荷蘭 64
-      - 荷蘭 65
-      - 荷蘭 66
-      - 荷蘭 67
-      - 荷蘭 68
-      - 俄羅斯
-      - 荷蘭 69
-      - 荷蘭 70
-      - 🇭🇰 香港 3
-      - 荷蘭 71
-      - 德國 8
-      - 荷蘭 72
-      - 德國 9
-      - 德國 10
-      - 荷蘭 73
-      - 荷蘭 74
-      - 🇱🇹 立陶宛 6
-      - 俄羅斯 2
-      - 荷蘭 75
-      - 🇯🇵 日本 9
-      - 荷蘭 76
-      - 荷蘭 77
       - 俄羅斯 3
-      - 荷蘭 78
+      - 荷蘭 53
       - 烏克蘭
+      - 🇱🇹 立陶宛 4
+      - 🇱🇹 立陶宛 5
+      - 🇱🇹 立陶宛 6
       - 🇱🇹 立陶宛 7
       - 🇱🇹 立陶宛 8
       - 🇱🇹 立陶宛 9
@@ -2589,10 +2560,10 @@ proxy-groups:
       - 🇱🇹 立陶宛 17
       - 🇱🇹 立陶宛 18
       - 🇱🇹 立陶宛 19
+      - 🇺🇸 美国
       - 🇱🇹 立陶宛 20
       - 🇱🇹 立陶宛 21
       - 🇱🇹 立陶宛 22
-      - 🇺🇸 美国
       - 🇱🇹 立陶宛 23
       - 🇱🇹 立陶宛 24
       - 🇱🇹 立陶宛 25
@@ -2609,12 +2580,9 @@ proxy-groups:
       - 🇱🇹 立陶宛 36
       - 🇱🇹 立陶宛 37
       - 🇱🇹 立陶宛 38
-      - 🇱🇹 立陶宛 39
-      - 🇱🇹 立陶宛 40
-      - 🇱🇹 立陶宛 41
       - 🇳🇴 挪威
       - 🇬🇧 英国
-      - 德國 11
+      - 德國 8
       - 🇩🇪 德国
       - 俄羅斯 4
       - 俄羅斯 5
@@ -2630,8 +2598,7 @@ proxy-groups:
       - 美國
       - 美國 2
       - 美國 3
-      - 美國 4
-      - 荷蘭 79
+      - 荷蘭 54
       - 烏克蘭 2
       - 🇩🇪 德国 2
       - 烏克蘭 3
@@ -2640,7 +2607,6 @@ proxy-groups:
       - 烏克蘭 5
       - 烏克蘭 6
       - 烏克蘭 7
-      - 🇫🇷 法国
       - 俄羅斯 9
       - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯 2
@@ -2651,21 +2617,21 @@ proxy-groups:
       - 🇺🇸 美国 5
       - 🇺🇸 美国 6
       - 俄羅斯 14
-      - 德國 12
-      - 德國 13
+      - 德國 9
+      - 德國 10
       - 🇩🇪 德国 4
       - 🇩🇪 德国 5
+      - 德國 11
+      - 德國 12
+      - 德國 13
       - 德國 14
       - 德國 15
       - 德國 16
       - 德國 17
+      - 美國 4
       - 德國 18
       - 德國 19
       - 德國 20
-      - 美國 5
-      - 德國 21
-      - 德國 22
-      - 德國 23
       - 🇰🇷 韓國
       - 🇰🇷 韓國 2
       - 俄羅斯 15
@@ -2722,17 +2688,17 @@ proxy-groups:
       - 俄羅斯 41
       - 俄羅斯 42
       - 俄羅斯 43
+      - 美國 5
       - 美國 6
-      - 美國 7
       - 🇩🇪 德国 7
-      - 荷蘭 80
-      - 荷蘭 81
-      - 美國 8
-      - 荷蘭 82
+      - 荷蘭 55
+      - 荷蘭 56
+      - 美國 7
+      - 荷蘭 57
       - 🇺🇸 美国 8
+      - 美國 8
       - 美國 9
       - 美國 10
-      - 美國 11
       - 俄羅斯 44
       - 🇺🇸 美国 9
       - 俄羅斯 45
@@ -2740,12 +2706,12 @@ proxy-groups:
       - 俄羅斯 47
       - 🇦🇪 阿联酋
       - 🇳🇱 荷兰
-      - 荷蘭 83
-      - 荷蘭 84
-      - 荷蘭 85
+      - 荷蘭 58
+      - 荷蘭 59
+      - 荷蘭 60
       - 🇳🇱 荷兰 2
       - 🇳🇱 荷兰 3
-      - 荷蘭 86
+      - 荷蘭 61
       - 烏克蘭 16
       - 烏克蘭 17
       - 🇺🇦 乌克兰
@@ -2766,6 +2732,40 @@ proxy-groups:
       - 英國 14
       - 英國 15
       - 英國 16
+      - 英國 17
+      - 英國 18
+      - 🇰🇷 韓國 3
+      - 英國 19
+      - 🇸🇪 瑞典
+      - 美國 11
+      - 美國 12
+      - 美國 13
+      - 美國 14
+      - 美國 15
+      - 美國 16
+      - 美國 17
+      - 美國 18
+      - 奧地利
+      - 奧地利 2
+      - 奧地利 3
+      - 🇺🇸 美国 10
+      - 奧地利 4
+      - 奧地利 5
+      - 奧地利 6
+      - 奧地利 7
+      - 奧地利 8
+      - 🇰🇷 韓國 4
+      - 🇰🇷 韩国
+      - 美國 19
+      - 美國 20
+      - 🇺🇸 美国 11
+      - 美國 21
+      - 🇨🇦 加拿大 4
+      - 🇨🇦 加拿大 5
+      - 🇨🇦 加拿大 6
+      - 🇨🇦 加拿大 7
+      - 美國 22
+      - 美國 23
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
